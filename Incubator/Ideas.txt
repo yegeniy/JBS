@@ -1,0 +1,46 @@
+---
+
+data visualizer.
+
+Give it a data set and it'll make a visualization of it. 
+	Can't see much retail value, but it would be fun to make.
+	Maybe not 
+
+---
+
+Activities near me.
+	A platform on top of a Google Maps layer to serve/create content to/for users through location awareness and tag matching. 
+	Content can either be a link to a website and/or a multimedia presentation within the program. Would need to provide simple tools to put together the presentations from within the application.
+	Content useful for this medium could be a tour, blog entry, how-to guide, advertising, hidden gems. Specific examples include, a museum tour; a trip documentary; instructions at the DMV; restaurant suggestions when walking by them; the ultimate scavenger hunt tool.
+	Possible business model for serving content: Pay to serve content with a wide reach(advertising / certain announcements not free), free for peer-to-peer use (serving content to "friends" is free). One analogy could be a list-serv - if you sign up on your friend's list-serv they can serve you content. If you sign up . Note that this doesn't stop a server from charging for his content - if you sign up for your local paper through this program, then the paper could charge you per view / month.
+---
+
+Can Android be location aware without GPS? (Does it have an accelarometer built in / can it take & process low quality images fast enough to find movement vectors?)
+	If it can, then it'd be REALLY useful to build an app to create routes on the go.
+
+---	
+	
+	Content is provided by users. Includes a Finds relevant activities near a user. A maps layer can either link to an ex
+
+Wikipedia Lookup Pix. Would be tough
+
+Scan Social network for pic of yourself - If we start with some face recognition software, like Picasa's, then the job of the program would be to crawl the sites, or at least relevant subsets of the sites (Your Friend's Pictures).
+
+A tool to 
+
+
+Coupon search by location! present coupon through cell.
+
+Shared discount card service. Buy X get 1 free. 
+
+----
+
+Add widgets to your desktop:
+	little fun widgets for the desktop on android: ranging from a beach ball you can kick around, to post its to calculator, etc... Basically make your desktop into a scrapbook
+
+----
+
+Internet Radio: 
+	Artist needs to make money
+	ad-free subscription
+	money distributed to the artist, proportional to listener volume

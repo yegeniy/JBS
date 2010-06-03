@@ -1,0 +1,22 @@
+Synopsis:
+
+"GroupCoupon": A site that fluidly facilitates crowd savings packages. (Working title)
+
+Description:
+
+A site to organize group purchases and distribute savings.
+
+Target Audience:
+
+I'll provide some examples of the uses for this product and hopefully the usefulness of the product will become apparent
+
+    * BoltBus has a buy X rides, get 1 free offer for members. That's nice but, for most users X is not a practically attainable number. However, if several users share a member account, they can quickly rack up the X rides.  Instead of one user getting a free ride, the money saved is automatically, and proportionally distributed by GroupCoupon to the participating users.
+    * Specific deals can be made with local businesses to give discounts when users buy en masse - Once enough users participate, the discount is applied.
+
+Various features and implementation ideas:
+
+    * Individual finds the deal and informs group coupon what it wants. 
+
+
+=======
+

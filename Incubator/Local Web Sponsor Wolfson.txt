@@ -1,0 +1,28 @@
+Synopsis:
+
+"Loca": a crowd-sourced platform on top of a Google Maps layer to serve content to users through location-awareness (GPS, and accelerometer) in addition to URLs.
+
+Description:
+
+Links are offered to users, based on their location. Links can either point to traditional websites, or load an in-browser presentation. In-browser presentations are multimedia presentations built from within the program. The program has an editor mode, where a range of multimedia tools are used to create a presentation which would link to a specific location. The tools range from text, to audio/video, to directions overlaid on the map layer. In order to work at finer levels of detail and indoors, the accelerometer may need to be used instead of GPS when within a presentation.
+
+Target Audience:
+
+I'll provide some examples of the variety of content that can be served and hopefully the usefulness of the product will become apparent:
+
+    * Tour - a museum tour when you enter a museum;
+    * A gallery of virtual tours of homes when walking into a real-estate office OR a tour of a specific home when walking past the home-to-be-sold.
+    * A trip documentary;
+    * Directions: Triage in a hospital, or instructions at the DMV;
+    * Restaurant suggestions/advertisements when walking past them;
+    * The ultimate scavenger hunt tool. 
+
+This product needs to attract two types of people: hosts and clients. Hosts put up content and can be a corporate entity or a blogger or a private user sharing with friends. A variety of business models are possible here. Let's discuss the business models and the features we'd need to implement to use the business models.
+
+Various features and implementation ideas:
+
+    * The Maps API and the GPS and the Accelerometer, or possibly a compass can be used to help determine location.
+    * Serving content could be analogous to a list-serv: if you sign up onto your friend's list-serv, they can serve you content. This doesn't stop a host from charging for his content: if you sign up for your local paper through this program, then the paper could charge you monthly by revoking access rights if you don't pay.
+    * Each host could be charged a service fee for each post and view. This fee could be paid directly, or by incorporating ads into the presentation. We would have to implement the ads into the presentation. I am thinking of something akin to youtube, but hopefully not like hulu.
+    * Indoor path tracking: I was hoping to collaborate with the CampusPaths (or another path tracking) team on this one, but I think that there are two possible ways to implement location awareness: accelerometer or high-speed camera with image-processing. The later option is definitely more computation intensive but can be used in devices without an accelerometer.
+    * Tag matching: A user could associate himself with tags that he is interested in, which would automatically serve him content associated with those tags. A method to filter spam / faulty tags would need to be implemented.
