@@ -3,7 +3,7 @@
 # Serve content between client and server
 # Eugene Wolfson
 # No preconditions
-# ruby myclient.rb at the prompt after starting myserver.rb in a different terminal
+# ruby myclient.rb at the prompt after starting myserver.rb in a 
 ######
 
 require 'socket'

@@ -28,7 +28,10 @@ class MyServer < GServer
     
     puts("Client #{@@client_id} attached.")
     loop do
-      line = io_object.readline
+      #puts "about to readline" #debugging
+      line = io_object.readline.chomp
+      #puts "read line"#debugging
+     
       case line
       when /^time/       # Time: H:M:S with meridian
         io_object.puts "The time is #{Time.now.strftime("%I:%M:%S%p")}"
@@ -38,18 +41,29 @@ class MyServer < GServer
         puts "Exiting!"
         break
       when /^f/         # Serve random fortune
-        io_object.puts sample FORTUNES # FORTUNES[FORTUNES.length * rand]
+        puts "serving random fortune"#debugging
+        puts sample1(FORTUNES)
+        io_object.puts sample1 FORTUNES # FORTUNES[FORTUNES.length * rand]
       when /^date/       # Serve Date
         io_object.puts "The date is #{Time.now.strftime("%a %B %d %Y")}"
       when /^d/         # Serve file
-        io_object.puts File.new(line.match(/[^d]+/).to_s).read 
-        # this serves the contents of the file. If the content happens to be HTML, a browser could render it like any other request... except the request should be using a protocol.
+        puts filename = line.match(/[^d]+/).to_s
+        if File.exist?(filename) 
+          io_object.puts File.new(filename, "r").read
+        else 
+          io_object.puts "File #{filename} not found"
+        end
+          
+        puts "#{filename} contesnts passsed in"
+          
+        # this serves the contents of the file. If the content happens to be HTML, a browser could render it like any other request... except the request should be interpreted by a protocol.
       when /^message\//   # Serve a message supported in the Message class
         Message.new(line)
       else
         puts "received line #{line}"
         io_object.put "What does #{line} mean anyway?"
       end
+
     end
   end
 end
@@ -90,10 +104,11 @@ class Message
     end
   end
   
-  #returns a single random element of list
-  def sample1 *list
-    list[list.length * rand]
-  end
+end
+
+#returns a single random element of list
+def sample1 list 
+  list[list.length * rand]
 end
 
 puts "Starting to listen for a connection on port 8888"
