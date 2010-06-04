@@ -3,7 +3,7 @@
 # Serve content between client and server
 # Eugene Wolfson
 # No preconditions
-# TODO: command line(s) to run it and demonstrate that it works
+# type ruby myserver.rb at the prompt and then connect to localhost port 8888
 ######
 require 'gserver'
 

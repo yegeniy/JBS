@@ -3,7 +3,7 @@
 # Serve content between client and server
 # Eugene Wolfson
 # No preconditions
-# TODO: command line(s) to run it and demonstrate that it works
+# ruby myclient.rb at the prompt after starting myserver.rb in a different terminal
 ######
 
 require 'socket'

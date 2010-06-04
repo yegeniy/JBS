@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Hello, Rails!</title>
+  </head>
+  <body>
+    <h1>Hello from Rails!</h1>
+    <!--erb/ex1.html.erb-->
+    <h5>erb/ex1.html.erb</h5>
+    <ul>
+      <li>Addition: <%= 1+2 %> </li>
+      <li>Concatenation: <%= "cow" + "boy" %> </li>
+      <li>Time in one hour: <%= 1.hour.from_now %> </li>
+    </ul>
+    <!--erb/ex2.op also see ex2a, ex2b.html.erb for -%> notations-->
+    <h5>erb/ex2.op</h5>
+    <% 3.times do %>
+    Ho!<br />
+    <% end %>
+    Merry Christmas!
+    <!--erb/ex3.html.erb-->
+    <h5>erb/ex3.html.erb</h5>
+    <% 3.downto(1) do |count| -%>
+    <%= count %>...<br />
+    <% end -%>
+    Lift off!
+    <!--erb/ex4.html.erb-->
+    <h5>erb/ex4.html.erb</h5>
+    Email: <%= h("Ann & Bill <frazer@isp.email>") %> # using helper method h <br />
+    Email: <%= "Ann & Bill <frazer@isp.email>" %> # not using helper method h
+    <!--Adding the time -->
+    <h4>Let's show the time now</h4>
+    <p>
+      It is now <%= Time.now %>
+    </p>
+    <h5>Let's show the time using an instance variable in a controller</h5>
+    <p>
+      It is now <%= @time %>
+    </p>
+    <p>
+      Time to say
+      <%= link_to "Goodbye!", :action => "goodbye" %>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>See You Later!</title>
+  </head>
+  <body>
+    <h1>Goodbye!</h1>
+    <p>
+      It was nice having you here.
+    </p>
+    <p>
+      Say <%= link_to "Hello", :action => "hello" %> again.<br />
+      Or check out some of the main attractions before you leave:
+      <ul>
+	<% for file in @files %>
+	<li><%= file %></li>
+	<% end %>
+      </ul>
+    </p>
+  </body>
+</html>
