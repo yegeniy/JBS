@@ -75,7 +75,7 @@ class Hangman
 
   #guesses a letter, unique to this instance of the game.
   def make_move!
-    @moves ||= INITIAL_MOVES #Initialize if necessary
+    @moves ||= INITIAL_MOVES.dup #Initialize if necessary
     
     if @moves.empty? #TODO: throw an exception instead
       puts "The computer has already guessed all the letters in the alphabet" 
@@ -88,11 +88,10 @@ class Hangman
 
   # makes sure that the user supplied word wasn't guessed by the computer
   # FIXME: Check that there exists a character in the correct word that wasn't guessed.
-  # FIXME: INITIAL_MOVES is changing every time @moves is changed. it's as if @moves is just a reference to INITIAL_MOVES
   def verify_word(correct_word)
-    puts "INITIALMOVES = #{INITIAL_MOVES} \n moves = #{@moves}"
-    puts "guessed chars are: #{(guessed_chars = INITIAL_MOVES - @moves)}"
-    puts "Hey, I guessed all the letters in that word!" if correct_word.count(guessed_chars.join) == correct_word.length
+    #    puts "INITIALMOVES = #{INITIAL_MOVES} \n moves = #{@moves}"
+    #    puts "guessed chars are: #{(guessed_chars = INITIAL_MOVES - @moves)}"
+    puts "I think you made a mistake, I guessed all the letters in that word!" if correct_word.count(guessed_chars.join) == correct_word.length
   end
 
 end
