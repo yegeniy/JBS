@@ -31,7 +31,7 @@ class MyServer < GServer
       #puts "about to readline" #debugging
       line = io_object.readline.chomp
       #puts "read line"#debugging
-     
+      
       case line
       when /^time/       # Time: H:M:S with meridian
         io_object.puts "The time is #{Time.now.strftime("%I:%M:%S%p")}"
@@ -49,19 +49,19 @@ class MyServer < GServer
       when /^d/         # Serve file
         puts filename = line.match(/[^d]+/).to_s
         if File.exist?(filename) 
-          io_object.puts File.new(filename, "r").read
+          io_object.puts File.new(filename, "r").readlines.join     
+          puts "#{filename} contents passed in"
         else 
           io_object.puts "File #{filename} not found"
         end
-          
-        puts "#{filename} contesnts passsed in"
-          
+        
+        
         # this serves the contents of the file. If the content happens to be HTML, a browser could render it like any other request... except the request should be interpreted by a protocol.
       when /^message\//   # Serve a message supported in the Message class
-        Message.new(line)
+        io_object.puts Message.new(line).to_s
       else
         puts "received line #{line}"
-        io_object.put "What does #{line} mean anyway?"
+        io_object.puts "What does #{line} mean anyway?"
       end
 
     end
@@ -83,9 +83,11 @@ class Message
     message_type= matches[1]
     option_type = /[^\?=]+/.match(matches[2]) #TODO: not implemented
     option = matches[3] #TODO: Not implemented
-    
+    puts "option = #{option}"
+
     case message_type
     when /^joke/
+      puts "choosing joke"
       choose_message(JOKES, option)
     when /^fortune/
       choose_message(FORTUNES, option)
@@ -96,18 +98,20 @@ class Message
 
   # Returns a random message from the given list and option set.
   def choose_message(list, option)
-    case option
-    when nil || "en"
+    puts "choosing message from  #{list}"
+    if option.nil? || option=="en"
+      puts "about to sample #{list}"
       sample1 list
     else
       "#{option} is not a supported language."
     end
   end
-  
 end
+
 
 #returns a single random element of list
 def sample1 list 
+  puts "in sample1"
   list[list.length * rand]
 end
 

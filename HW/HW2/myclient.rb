@@ -18,7 +18,7 @@ loop do
   command_string = gets.chomp
   break if command_string =~ /x/ #exit command starts with x
   tcp_socket.puts command_string
-  servers_resp = tcp_socket.readline
+  servers_resp = tcp_socket.readline #only reads one line
   puts servers_resp.to_s
 end
 
