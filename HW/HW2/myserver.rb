@@ -58,7 +58,7 @@ class MyServer < GServer
         
         # this serves the contents of the file. If the content happens to be HTML, a browser could render it like any other request... except the request should be interpreted by a protocol.
       when /^message\//   # Serve a message supported in the Message class
-        io_object.puts Message.new(line).to_s
+        io_object.puts Message.new(line).read
       else
         puts "received line #{line}"
         io_object.puts "What does #{line} mean anyway?"
@@ -83,36 +83,37 @@ class Message
     message_type= matches[1]
     option_type = /[^\?=]+/.match(matches[2]) #TODO: not implemented
     option = matches[3] #TODO: Not implemented
-    puts "option = #{option}"
+#    puts "option = #{option}"
 
-    case message_type
+    @contents = case message_type
     when /^joke/
-      puts "choosing joke"
       choose_message(JOKES, option)
     when /^fortune/
       choose_message(FORTUNES, option)
     end
-    
   end
 
 
   # Returns a random message from the given list and option set.
   def choose_message(list, option)
-    puts "choosing message from  #{list}"
     if option.nil? || option=="en"
-      puts "about to sample #{list}"
       sample1 list
     else
       "#{option} is not a supported language."
     end
+  end
+
+  #Returns the contents of the message as a string
+  def read
+    @contents.to_s
   end
 end
 
 
 #returns a single random element of list
 def sample1 list 
-  puts "in sample1"
-  list[list.length * rand]
+#  puts "in sample1"
+  list[list.length * rand].to_s
 end
 
 puts "Starting to listen for a connection on port 8888"
