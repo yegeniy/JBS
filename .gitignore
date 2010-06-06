@@ -1,2 +1,4 @@
 # emacs temp files
 *~
+# .log files
+*.log

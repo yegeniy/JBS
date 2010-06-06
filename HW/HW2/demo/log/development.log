@@ -2240,3 +2240,28 @@ Rendering rescues/layout (internal_server_error)
 Processing SayController#goodbye (for 127.0.0.1 at 2010-06-03 21:23:37) [GET]
 Rendering say/goodbye
 Completed in 27ms (View: 16, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2010-06-06 19:44:24) [GET]
+Rendering say/hello
+Completed in 180ms (View: 159, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2010-06-06 19:45:05) [GET]
+Rendering say/goodbye
+Completed in 144ms (View: 123, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2010-06-06 19:45:09) [GET]
+Rendering say/hello
+Completed in 35ms (View: 13, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2010-06-06 19:48:19) [GET]
+Rendering say/goodbye
+Completed in 30ms (View: 7, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2010-06-06 19:48:25) [GET]
+Rendering say/hello
+Completed in 35ms (View: 7, DB: 0) | 200 OK [http://localhost/say/hello]
