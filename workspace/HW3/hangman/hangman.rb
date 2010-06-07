@@ -14,7 +14,7 @@
 class Hangman
   
   attr_reader :word, :lives, :dict #TODO: might not need lives here
-  DEFAULT_LIVES = 5
+  DEFAULT_LIVES = 6
   PLACEHOLDER = '_' #TODO: should this be a constant, or a local variable within play method?
   INITIAL_MOVES=('a'..'z').to_a
 
@@ -56,14 +56,13 @@ class Hangman
       else #set positions
         positions.each{|i| word[i-1]=move}
       end
-      #      puts "INITIAL_MOVES = #{  INITIAL_MOVES}"
+      
     end
 
     puts #newline
     if @lives > 0
       puts "Computer guessed correctly!"
     else
-
       verify_word(word)
     end
     
@@ -105,10 +104,9 @@ class Hangman
   # makes sure that the user supplied word wasn't guessed by the computer
   # FIXME: Check that there exists a character in the correct word that wasn't guessed.
   def verify_word(word)
-    #    puts "INITIALMOVES = #{INITIAL_MOVES} \n moves = #{@moves}"
     guessed_chars = INITIAL_MOVES - @moves 
     puts "Computer guessed: #{guessed_chars}" #Note that I'm setting guessed chars within the string
- 
+    
     print "Computer failed. What was the word? "
     correct_word = gets.chomp
 
@@ -123,8 +121,6 @@ class Hangman
     
   end
 end
-
-
 
 if __FILE__ == $0
   h = Hangman.new
