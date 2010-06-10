@@ -1,15 +1,24 @@
 <h1>Your Pragmatic Catalog</h1>
+<div class="page-visits"><%="You've been here " + pluralize(@count, "times") + "." + 
+			    " Do something please." if @count > 5 -%>
+  <%-# Should this be in the controller? %>
+</div>
 
 <% @products.each do |product| -%>
 <div class="entry">
-  <%= link_to image_tag(product.image_url),
-        { :action => :add_to_cart, :id => product },
-        :method => :post %>
+  <% form_remote_tag :url => { :action => 'add_to_cart', :id => product } do %>
+    <%= image_submit_tag(product.image_url, 
+			:alt => product.image_url + " not found.", 
+			:title => "Add to cart", 
+			:class => "product_picture") -%>
+  <% end %>
   <h3><%=h product.title %></h3>
   <%= product.description %>
   <div class="price-line">
     <span class="price"><%= number_to_currency(product.price) %></span>
-    <%= button_to 'Add to Cart' %>
+    <% form_remote_tag :url => { :action => 'add_to_cart', :id => product } do %>
+      <%= submit_tag "Add to Cart" %>
+    <% end %>
   </div>
 </div>
 <% end %>
