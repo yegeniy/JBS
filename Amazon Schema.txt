@@ -1,0 +1,27 @@
+Product:
+	Title
+	Author
+	Item type (department)
+	Format
+	Rating
+	Description (Pages, Running time, Synopsis, ESRB Rating, etc..)
+	
+
+List of instances of that product, which have the following columns:
+	Seller
+	Price
+	Shipping price
+	Location to ship from
+	Condition
+	Shipping Methods Available
+
+Seller:
+	His inventory (a list of instances of products he can sell)
+	Seller Rating
+	Reviews
+
+"Catalog":
+List of products
+	The product ID - Primary Key
+	Info associated
+	
