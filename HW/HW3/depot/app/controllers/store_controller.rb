@@ -32,7 +32,7 @@ class StoreController < ApplicationController
 
       respond_to do |format|
         format.js if request.xhr?
-        format.html {redirect_to_index} #why does this not invoke regardless of format.js line's result (one above)?
+        format.html {redirect_to_index}
       end
     end
     # redirect_to_index unless request.xhr?
