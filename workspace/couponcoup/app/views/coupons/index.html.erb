@@ -2,16 +2,16 @@
 
 <table>
   <tr>
-    <th>Title</th>
-    <th>Requirements</th>
-    <th>Description</th>
+    <th>Company</th>
+    <th>Deal</th>
+    <th>Expiration</th>
   </tr>
 
 <% @coupons.each do |coupon| %>
   <tr>
-    <td><%=h coupon.title %></td>
-    <td><%=h coupon.requirements %></td>
-    <td><%=h coupon.description %></td>
+    <td><%=h coupon.company %></td>
+    <td><%=h coupon.deal %></td>
+    <td><%=h coupon.expiration %></td>
     <td><%= link_to 'Show', coupon %></td>
     <td><%= link_to 'Edit', edit_coupon_path(coupon) %></td>
     <td><%= link_to 'Destroy', coupon, :confirm => 'Are you sure?', :method => :delete %></td>

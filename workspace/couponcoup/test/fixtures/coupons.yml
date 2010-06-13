@@ -1,11 +1,11 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  title: MyString
-  requirements: MyText
-  description: MyText
+  company: MyString
+  deal: MyString
+  expiration: 2010-06-12 22:31:41
 
 two:
-  title: MyString
-  requirements: MyText
-  description: MyText
+  company: MyString
+  deal: MyString
+  expiration: 2010-06-12 22:31:41

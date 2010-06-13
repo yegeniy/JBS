@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random, 
 # no regular words or you'll be exposed to dictionary attacks.
-ActionController::Base.cookie_verifier_secret = 'f2365a795fe0467f884a7cc43168fe49e796f88103ecfe637480bf371833ca224601612d3866d9f7ca29ccb8fd6dc8ef31c5164d2af2a40c0a2abfdc76f7bf32';
+ActionController::Base.cookie_verifier_secret = '887711b8e54b0b104c8ce834c3cd86c1bb5950fef791b13207508d914a52ea3592a3bbb5e3b4bb0a56ad96734f276b6d75e2e6c5a34154281da02cf55317c39d';

@@ -4,16 +4,16 @@
   <%= f.error_messages %>
 
   <p>
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.label :company %><br />
+    <%= f.text_field :company %>
   </p>
   <p>
-    <%= f.label :requirements %><br />
-    <%= f.text_area :requirements %>
+    <%= f.label :deal %><br />
+    <%= f.text_field :deal %>
   </p>
   <p>
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
+    <%= f.label :expiration %><br />
+    <%= f.datetime_select :expiration %>
   </p>
   <p>
     <%= f.submit 'Update' %>

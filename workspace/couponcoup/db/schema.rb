@@ -9,15 +9,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100611191032) do
+ActiveRecord::Schema.define(:version => 20100613023141) do
 
   create_table "coupons", :force => true do |t|
-    t.string   "title"
-    t.text     "requirements"
-    t.text     "description"
+    t.string   "company"
+    t.string   "deal"
+    t.datetime "expiration"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "progress"
   end
 
 end
