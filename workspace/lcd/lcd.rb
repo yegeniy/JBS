@@ -78,9 +78,9 @@ class LcdDigit
   HOR_CHAR = '-'
   VER_CHAR = '|'
   SPACE = ' ' 
+
   # In a file, search for the digit, then extract the next 5 lines, which represent the digit as a size one lcd object\
   # digit can't be "|" or "-"
-  #FIXME: If digit isn't found, an error should be reported and the digit should be skipped
   def self.lcd_representation(digit, size=1)
     digit_in_lcd ||= []
     File.open('lcd_digits.txt', "r") do |f|
@@ -90,8 +90,6 @@ class LcdDigit
         end
         digit_in_lcd = DEFAULT_DIGIT_HEIGHT.times.collect{ f.readline }
       rescue EOFError
-        #STDERR.puts digit.to_s + " not found"
-        #f.close
         digit_in_lcd = UNKNOWN_DIGIT.dup
       end
     end
@@ -110,11 +108,11 @@ class LcdDigit
       #      puts "row is '#{row}'"
       #stretch even rows (0,2,4) horizontally 
       if i%2 == 0
-        #puts "row: '#{row.chomp}' scaled_row: '#{row.gsub(HOR_CHAR,HOR_CHAR*size).chomp}'"
+        #puts "row: '#{row.chomp}' scaled_row: '#{row.gsub(HOR_CHAR,HOR_CHAR*size).chomp}'" #debugging
         scaled_digit << row.gsub(HOR_CHAR,HOR_CHAR*size)
       #stretch odd rows vertically
       else
-        row[1,1] = row[1,1]*size #FIXME: assumes width is 3
+        row[1,1] = row[1,1]*size #FIXME: statically assumes width is 3
         row_sub  = row
         #puts "row: '#{row}' scaled_row: '#{row_sub}'" #debuggin
         size.times{scaled_digit << row_sub}
