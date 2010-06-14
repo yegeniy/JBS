@@ -1,4 +1,17 @@
 class CouponsController < ApplicationController
+
+  # shows only coupons with a zip code of params[:id]
+  def zip_code
+    @current_zip = params[:id]
+    
+    @coupons = Coupon.all.select{ |c| c.zip_code == @current_zip}
+
+    respond_to do |format|
+      format.html # index.html.erb
+      format.xml  { render :xml => @coupons }
+    end
+  end
+  
   # GET /coupons
   # GET /coupons.xml
   def index
