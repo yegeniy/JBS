@@ -2,7 +2,7 @@
 # LCD, HW6
 # To display a sequence of numbers in lcd script, of variable size
 # Eugene Wolfson
-# just need ruby and a command line prompt
+# just need ruby and a command line prompt, and the lcd_digits.txt file in the same directory as lcd.rb
 # > ruby lcd.rb -s SIZE NUMBER_SEQUENCE
 #   Where SIZE is an integer more than 1, and NUMBER_SEQUENCE is a non-delimited string of numbers.
 ######
@@ -85,7 +85,7 @@ class LcdDigit
     digit_in_lcd ||= []
     File.open('lcd_digits.txt', "r") do |f|
       begin
-        until f.readline.match(/#{digit}/) do
+        until f.readline.match(/^#{digit}/) do
           next# puts $_
         end
         digit_in_lcd = DEFAULT_DIGIT_HEIGHT.times.collect{ f.readline }
