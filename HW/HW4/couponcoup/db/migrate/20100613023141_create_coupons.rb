@@ -1,9 +1,9 @@
 class CreateCoupons < ActiveRecord::Migration
   def self.up
     create_table :coupons do |t|
-      t.string :title
-      t.text :requirements
-      t.text :description
+      t.string :company
+      t.string :deal
+      t.datetime :expiration
 
       t.timestamps
     end
