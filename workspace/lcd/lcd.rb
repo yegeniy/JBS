@@ -1,33 +1,43 @@
+######
+# LCD, HW6
+# To display a sequence of numbers in lcd script, of variable size
+# Eugene Wolfson
+# just need ruby and a command line prompt
+# > ruby lcd.rb -s SIZE NUMBER_SEQUENCE
+#   Where SIZE is an integer more than 1, and NUMBER_SEQUENCE is a non-delimited string of numbers.
+######
 
 
-# A sequence of digits is printed by concatenating the lines of all digits (TODO: later implement concatenation from the top-down to support different sized digits)
+
+# A sequence of digits is printed by concatenating the lines of individual digits 
+# (TODO: later implement concatenation from the top-down to support different sized digits)
 DEFAULT_DIGIT_HEIGHT = 5
 DEFAULT_DIGIT_WIDTH = 3
 class Lcd
-  # BASE_LCD_DIGITS = ["|"]
-  
   # Import a list of all digits
+  # Parse command line input
+  #
   # Set numbers to display
   def initialize#(*args=ARGV)
     args = ARGV
     #puts "args are"
     #puts args.inspect
     @size ||= 1
-    numbers ||= []
-    
+
+
     #convert to strings
-
-
-    if args[0] == "-s" &&  args[1].to_i.floor > 0
+    if args[0] == "-s" &&  args[1].to_i.floor >= 1
       #puts "setting @size"
       @size = args[1].to_i.floor
       extract_digits(args[2]) 
     else 
-      @size = args[0].to_i
+#      @size = args[0].to_i
       extract_digits(args[0])
     end
   end
 
+  # Makes an array of digits on a *non*-delimited sequence of digits
+  # FIXME: make Exception handling look nicer
   def extract_digits arg
     @digits = arg.to_s.scan(/\d/).map{|i| i.to_i}
     raise Exception if @digits.empty? #TODO: Handle exception
@@ -105,19 +115,19 @@ class LcdDigit
       #stretch odd rows vertically
       else
         row[1,1] = row[1,1]*size #FIXME: assumes width is 3
-        row_sub =  row
-        puts "row: '#{row}' scaled_row: '#{row_sub}'"
+        row_sub  = row
+        #puts "row: '#{row}' scaled_row: '#{row_sub}'" #debuggin
         size.times{scaled_digit << row_sub}
       end
       #puts "scaled digit, index #{i} so far is:" + scaled_digit.to_s #debugging
     end
-    puts "scaled digit is:\n"+ scaled_digit.to_s
+   # puts "scaled digit is:\n"+ scaled_digit.to_s
     return scaled_digit
   end
 
   # Return a block of '?' of appropriate size
-  def unknown_digit(size)
-  end 
+  #def unknown_digit(size)
+  #end 
 end
 
 
