@@ -1,9 +1,11 @@
 class StoreController < ApplicationController
+  before_filter :find_cart, :except => :empty_cart
+
   def index
     @products = Product.find_products_for_sale
     @cart = find_cart
     @time = Time.now
-    @count = increment_count		# How many times has index been accessed
+    @count = increment_count	# How many times has index been accessed
   end
 
   def add_to_cart
@@ -80,7 +82,12 @@ class StoreController < ApplicationController
   end
 
   def find_cart
-    session[:cart] ||= Cart.new	# return existing or new cart
+    @cart = (session[:cart] ||= Cart.new)
   end
 
+  protected
+  
+  def authorize
+  end
+  
 end
