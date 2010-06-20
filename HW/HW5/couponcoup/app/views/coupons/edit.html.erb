@@ -1,0 +1,28 @@
+<h1>Editing coupon</h1>
+
+<% form_for(@coupon) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :company %><br />
+    <%= f.text_field :company %>
+  </p>
+  <p>
+    <%= f.label :deal %><br />
+    <%= f.text_field :deal %>
+  </p>
+  <p>
+    <%= f.label :expiration %><br />
+    <%= f.datetime_select :expiration %>
+  </p>
+  <p>
+    <%= f.label :zip_code %><br />
+    <%= f.text_field :zip_code %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @coupon %> |
+<%= link_to 'Back', coupons_path %>
