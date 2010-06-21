@@ -1,0 +1,79 @@
+HW4:
+DELIVERABLE: Print the controller/model and/or view from your reading of Chapters 1-8 
+
+HW5: Print the key personal project files.
+
+HW6: <<--- HERE
+# Add an association between the two (or more) models
+# Add some 'style' to your personal app with CSS
+# DELIVERABLE: A screencast showing you demoing this.
+# DELIVERABLE: Source code for key files printed and checked into git. 
+DELIVERABLE: LCD: Hand in the ruby code on paper, check into git and screencast a demo of it. 
+* DELIVERABLE: Share another cool method or class you discovered in Ruby or Rails that none of us may have known about and say why you think it's cool! 
+
+
+HW8:
+# Add a login feature to your web application using one of these, any you choose.
+# DELIVERABLE: Hand in and post the files you needed to create/modify to add authentication and carefully comment the changes and additions you make
+# DELIVERABLE: Screencast showing it working 
+
+# DELIVERABLE: Blog with your impressions of how well it is working for you on your product team 
+
+* DELIVERABLE: Blog about a cool Ruby or Rails class, method, or gem. Something that will surprise and delight and WOW! us 
+
+HW9:
+# Write at 5 or more unit test methods for your model(s), associations. Also write a few for your controllers.
+# Make sure that they run automatically and all succeed when you do a $ rake test
+# DELIVERABLE: Source code on paper, well commented
+# DELIVERABLE: Screencast of you running the tests 
+
+Performance (Personal App)
+
+    * Pick at least 2 techniques and test the performance of your personal app (if you want you could measure your product as well)
+    * DELIVERABLE: Source code for your tests, plus test results, on paper
+    * DELIVERABLE: Screencast (narrated) of your running the performance tests 
+
+Sharding: Thought experiment
+
+    * Your personal app has gone viral. You suddenly have a huge amount of load on your server. Think about how you would determine that sharding would help, and then describe how you would redesign your database to include sharding. See if you can find any resources on the web that explain how to implement sharding for a rails application.
+    * DELIVERABLE: Write a blog post explaining (to a geek audience) how you would implement sharding in your personal application. You should be detailed enough that an experienced rails programmer could use your post to actually implement sharding. 
+
+HW10:
+#
+# DELIVERABLE: Hand in and post to git your cards.rb and the changed (and COMMENTED) controller
+# DELIVERABLE: Screen cast of utility in action 
+
+Personal OR incubator application
+
+    * Design a full REST API for your personal application OR personal application
+    * Write it up as documentation for another developer who wanted to access it
+    * DELIVERABLE: Hand in and post to git your write up of your approach, including each method, get vs. put vs post, and the url structure 
+
+Cloud Computing:
+class CloudFortuneCookieStore
+
+  # id is a number or other kind of unique id
+  # text is the text of a fortune cookie
+ 
+   def storeCookie(forune_cookie_id, fortune_cookie_text)
+   end
+
+   def getCookie(fortune_cookie_id)
+    # returns text of fortune cookie 
+   end
+
+   def getRandomCookie
+   # return text of a random cookie
+   end
+
+   def initialize
+   # initiates connection to cloud storage
+   end
+
+
+    * DELIVERABLE: Source code (paper and github) for the class above including grabbing and the command line params
+    * DELIVERABLE: Screencast of this code running 
+
+HW11:
+AJAX
+JQuery
