@@ -9,25 +9,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100621023321) do
+ActiveRecord::Schema.define(:version => 20100614193245) do
 
-  create_table "coupons", :force => true do |t|
-    t.string   "company"
-    t.string   "deal"
-    t.datetime "expiration"
+  create_table "cards", :force => true do |t|
+    t.string   "name"
+    t.integer  "home_phone"
+    t.integer  "office_phone"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "zip_code"
   end
 
-  create_table "coupons_users", :id => false, :force => true do |t|
-    t.integer "coupon_id"
-    t.integer "user_id"
-  end
-
-  create_table "users", :force => true do |t|
-    t.string   "username"
-    t.string   "password"
+  create_table "phones", :force => true do |t|
+    t.string   "number"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

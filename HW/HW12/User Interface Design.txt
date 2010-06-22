@@ -1,0 +1,34 @@
+# For tomorrow: whether you are on a Mac or Windows, choose 3 features that you think make the operating system easy to use and 3 that make it hard to use. Think about it this way, what would confuse your non-technical sister or grand-mother if they tried to use it to send email or to write a letter? Write up a critique that explains as best you why those 6 features make things much easier and/or much harder.
+
+
++
+
+Expose + Spaces. Using a Mac would be impossible without these features. The tabbing system is just so bad, and there's no (useful) automatic distribution of windows in regular view, so the nice organized view that expose offers and the extra room offered by spaces solves that problem.
+
+
++
+
+Widgets on the dashboard. They take a while to load each login, when you first call them, but they are nice. 
+
++
+
+Bash and other unix-like commands are really convenient in doing coding. I'm glad Mac OS X comes with a lot of support for development built in.
+
+-
+
+Window Management:
+Implementation of Tabbing between applications. You need to use two different different shortcuts:
+ Command-Tab to switch among different applications and Command-` to switch among windows within an application. Moreover, Command-Tabbing back and forth doesn't just bring a single window of each application to the front, but it brings all windows of that applcation to the front. If I wanted this functionality, I'd just click F10 after tabbing. 
+Lack of auto positioning of windows and poor resizing controls. 
+I want to squeeze many windows into one space. I want this done the the touch of a button, and I want to be able to temporarily expand the size of one window without effort. Then, when I'm done using that window in its expanded size, I want it to shrink to a more compact size and lock into place with other windows.
+
+-
+
+Updates don't delete themselves, so every time you run Software Update, you lose a little bit of space. After a few years I lost a majority of my hard drive to tiny little updates, whose [files which should be] temp files just lay around somewhere. When I reinstalled OS X, I got a bunch of free space without any loss of data, or functionality.
+
+-
+
+Finder is a lie! 
+A) It's too easy to unforgivably delete and shift around directories and files with an absentminded brush of the hand across the trackpad. 
+B) Can't see hidden files, no matter how hard I try to find the option. And that pesky .DS_Store is everywhere. Big pain to remove. every time
+C) Automator is a nice idea, but it's too dumbed down to be easy to use

@@ -1,11 +1,11 @@
 HW4:
 DELIVERABLE: Print the controller/model and/or view from your reading of Chapters 1-8 
 
-HW5: Print the key personal project files.
+HW5: DELIVERABLE: Print the key personal project files.
 
-HW6: <<--- HERE
+HW6: 
 # Add an association between the two (or more) models
-# Add some 'style' to your personal app with CSS
+# Add some 'style' to your personal app with CSS <<--- HERE
 # DELIVERABLE: A screencast showing you demoing this.
 # DELIVERABLE: Source code for key files printed and checked into git. 
 DELIVERABLE: LCD: Hand in the ruby code on paper, check into git and screencast a demo of it. 
