@@ -1,11 +1,11 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-one:
-  company: MyString
-  deal: MyString
-  expiration: 2010-06-12 22:31:41
+empty:
+  company:
+  deal:
+  expiration:
 
-two:
-  company: MyString
+expired:
+  company: 
   deal: MyString
   expiration: 2010-06-12 22:31:41

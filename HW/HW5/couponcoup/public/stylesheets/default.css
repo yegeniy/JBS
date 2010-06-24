@@ -1,0 +1,27 @@
+body 
+{
+background-color:tan;
+}
+
+
+.coupon th
+{
+font-family:"Times New Roman";
+font-size:20px;
+
+text-align:center;
+
+border:2px solid orange;
+border-collapse:collapse;
+
+}
+
+.coupon td
+{
+padding:15px;
+}
+
+.coupon .options
+{
+border:1px solid green;
+}
