@@ -1,13 +1,4 @@
 ActionController::Routing::Routes.draw do |map|
-
-  #map.resources 'users/:id/coupons' :controller => 'users', :action => 'view'
-  map.resources :users
-  map.resources :coupons
-
-  map.login 'login', :controller => 'user_sessions', :action => 'new'
-  map.logout 'logout', :controller => 'user_sessions', :action => 'destroy'
-  map.resources :user_sessions
-
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

@@ -13,7 +13,8 @@ DELIVERABLE: LCD: Hand in the ruby code on paper, check into git and screencast 
 
 
 HW8:
-# Add a login feature to your web application using one of these, any you choose.
+# Add a login feature to your web application using one of these, any you choose. 
+	Tried to use Devise, but no luck!
 # DELIVERABLE: Hand in and post the files you needed to create/modify to add authentication and carefully comment the changes and additions you make
 # DELIVERABLE: Screencast showing it working 
 
