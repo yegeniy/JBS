@@ -1,16 +1,18 @@
-# For tomorrow: whether you are on a Mac or Windows, choose 3 features that you think make the operating system easy to use and 3 that make it hard to use. Think about it this way, what would confuse your non-technical sister or grand-mother if they tried to use it to send email or to write a letter? Write up a critique that explains as best you why those 6 features make things much easier and/or much harder.
+# Eugene Wolfson
+# HW 12, UI Design of Mac OS X
+# Instructions: whether you are on a Mac or Windows, choose 3 features that you think make the operating system easy to use and 3 that make it hard to use. Think about it this way, what would confuse your non-technical sister or grand-mother if they tried to use it to send email or to write a letter? Write up a critique that explains as best you why those 6 features make things much easier and/or much harder.
 
 
-+
++:
 
 Expose + Spaces. Using a Mac would be impossible without these features. The tabbing system is just so bad, and there's no (useful) automatic distribution of windows in regular view, so the nice organized view that expose offers and the extra room offered by spaces solves that problem.
 
 
-+
++:
 
-Widgets on the dashboard. They take a while to load each login, when you first call them, but they are nice. 
+Widgets on the dashboard. They take a while to load each login, when you first call them, but they are nice, and there is a lot to choose from, so it's a handy application to always have open in an unintrusive location
 
-+
++:
 
 Bash and other unix-like commands are really convenient in doing coding. I'm glad Mac OS X comes with a lot of support for development built in.
 
