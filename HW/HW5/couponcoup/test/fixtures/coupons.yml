@@ -1,5 +1,10 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
+one:
+  company:
+  deal:
+  expiration:
+
 empty:
   company:
   deal:

@@ -1,0 +1,13 @@
+HW 4:
+# DELIVERABLE: Blog about 2 chapters that you found interesting or/and confusing 
+	http://jbs2010.wordpress.com/2010/06/13/eugene-wolfson-chapters-89/
+# DELIVERABLE: Hand in the controller/model and/or view from your reading of Chapters 1-8 
+	http://github.com/yegeniy/JBS/tree/master/HW/HW3/depot/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW3/depot/app/controllers/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW3/depot/app/models/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW3/depot/app/views/
+DELIVERABLE: Hand in the key files: model(s), view(s), controller(s), routes, and so on. Don't hand in any rails-generated standard code that you didn't modify. (of personal app)
+	http://github.com/yegeniy/JBS/tree/master/HW/HW4/couponcoup/app/controllers/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW4/couponcoup/app/models/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW4/couponcoup/app/views/
+	http://github.com/yegeniy/JBS/blob/master/HW/HW4/couponcoup/db/schema.rb

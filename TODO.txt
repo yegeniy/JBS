@@ -13,7 +13,7 @@ DELIVERABLE: LCD: Hand in the ruby code on paper, check into git and screencast 
 
 
 HW8:
-# Add a login feature to your web application using one of these, any you choose. 
+# Add a login feature to your web application using one of these, any you choose.  <<--- DONE
 	Tried to use Devise, but no luck!
 # DELIVERABLE: Hand in and post the files you needed to create/modify to add authentication and carefully comment the changes and additions you make
 # DELIVERABLE: Screencast showing it working 
@@ -23,7 +23,7 @@ HW8:
 * DELIVERABLE: Blog about a cool Ruby or Rails class, method, or gem. Something that will surprise and delight and WOW! us 
 
 HW9:
-# Write at 5 or more unit test methods for your model(s), associations. Also write a few for your controllers.
+# Write at least 5 or more unit test methods for your model(s), associations. Also write a few for your controllers. <<--- DONE
 # Make sure that they run automatically and all succeed when you do a $ rake test
 # DELIVERABLE: Source code on paper, well commented
 # DELIVERABLE: Screencast of you running the tests 

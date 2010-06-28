@@ -1,9 +1,81 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-one:
-  username: MyString
-  password: MyString
+abraham:
+  created_at: 2010-06-25 13:53:11
+  crypted_password: eb5d52b2f76fc96ea236244128631dc55f50130ecef0a5ae2cf7c78df4e8fdf75ebc5308981940b49d226a15970d58c5b02d987fe4e4a85d115274494187a4e2
+  updated_at: 2010-06-25 13:53:11
+  username: abraham
+  id: "5"
+  password_salt: wWNYZe91LGEvYqXPl779
+  persistence_token: b42b3be895bb44fa63ea64f652555e0fc00d7b60d88fbeb5dbae4aa476c00151e31b01c29f541c16952e9b04fac031ee6465faf468d7fc1000117652cbe880c9
+  email: abraham@gmail.com
 
-two:
-  username: MyString
-  password: MyString
+boron:
+  created_at: 2010-06-25 14:00:13
+  crypted_password: fcb6abda5966b4a14f6b78ef9bfb301ad8149524f7a13c99758f16a096db62b5a09c25ca0bc726deec613dc8228e29a27574b57e3a3be5fd2ca8678ee60c363f
+  updated_at: 2010-06-25 14:00:13
+  username: boron
+  id: "6"
+  password_salt: 0I7O_t0apfP0snVpt4q6
+  persistence_token: 0cfbfd0f3abc85acfe22543d8e92107b48025d4a9e39d891968c33b4ade62dbf6ab9cf9abb0e39591c8f329e1a969f90bdd48ad810a9cc9a7138a896a1024a23
+  email: boron@gmail.com
+
+catherine:
+  created_at: 2010-06-25 14:01:14
+  crypted_password: dedd7fc1e74faebf665fbac105fc55eed7e4c4949bc63864fdc51a7d1c102b23a9519e23f908e2debd9761fefa2277bbdb0b384135e6b0f40d872ceb7e812503
+  updated_at: 2010-06-25 14:01:14
+  username: catherine
+  id: "7"
+  password_salt: xk6Gm94I_r5nYuQzwX8h
+  persistence_token: 00a364f9921e0dadbc31cb9486b8017cda263294cf7f873f429e897b736dcaa08dd86ab8e5de449dcabc68805e5678a92be0354c408bd1ca4e4722593f434d0a
+  email: catherine@gmail.com
+
+dustin:
+  created_at: 2010-06-25 14:02:13
+  crypted_password: cebeda575cd6cfe8445ff6c3ab5d76433a4665b4851d85c86c875cd5d4f9ed005d4f2660a406dff0cabe82a60364146da8a9d10f900831856a648efe437b97ef
+  updated_at: 2010-06-25 14:02:13
+  username: dustin
+  id: "8"
+  password_salt: QZA_qJc8nTyx3-T7xfeA
+  persistence_token: 61460644b8f3dc65bf3309a40b95ffe2147ea3716e11f03bd6e17f5adea75e2ce6709c0dd6dba95ce17bb3fc298749323453a126bea740d0ae1f0abb661a6d5c
+  email: dustin@gmail.com
+
+eugene:
+  created_at: 2010-06-25 14:03:02
+  crypted_password: 2239164dc759d19b2568dbcf3241d5897cbb454c358829286c5954c4c6c0d2d513424e3474e54a83f20cfd6acc347f0473806e5b579e2ac3fb7ff35995df74df
+  updated_at: 2010-06-25 14:03:02
+  username: eugene
+  id: "9"
+  password_salt: 4FTE-9-JL5VO0v15kN5n
+  persistence_token: 5de4334be889ad1bb12b5b669e9f24c77e7c20f5f2919237476453c54a971b47b5f99952a033a8ea7ed84ecaa394bfb83afab563ef62745914cb3d326415806d
+  email: eugene@gmail.com
+
+faina:
+  created_at: 2010-06-25 14:03:45
+  crypted_password: 0c883ab46bf18b82b170f282a822c219184d608d9ad169060938f261ff2884d67d26133ed41db945d502cac21b8f523fcde08538339f166c5222a25f5c8edeff
+  updated_at: 2010-06-25 14:03:45
+  username: faina
+  id: "10"
+  password_salt: 0c1GiYOHZVcdwqD-Qa6J
+  persistence_token: 7976dcadd7a4a101be57efaf382975eda49113b5cab45239b58670b27a497508139c3679ad03f5ebc849d1f52a609e3c22cf581a7e4c665034bfa97d02b6b7db
+  email: faina@gmail.com
+
+galya:
+  created_at: 2010-06-25 14:04:27
+  crypted_password: 6f0b3f70b74b0737bf41cf1517f278955fa05a985b5b3b7659f72745c72e9dad4491ba85631b8e6bbb32afb09160ee5c2e07e7eb9d26b4debbdf70bbf82d52a1
+  updated_at: 2010-06-25 14:04:27
+  username: galya
+  id: "11"
+  password_salt: ECvtl_uE9kVIso5i1lK3
+  persistence_token: 4a3211ade869674b44fd242f813ae1e6e5163760a0d6b0ab165a391f9aa70d52e857c9fd4b52199e2c4777c5683ceffff937f27a474ecc741883b08d9c7c2575
+  email: galya@gmail.com
+
+herman:
+  created_at: 2010-06-25 14:05:16
+  crypted_password: 95b25aff861606d18158886279beac05e5ba7858c8445a197b6f8a451e9a0851330adeca73f299cdfd1b67681d7cac6149d63e7a4db22a2d7db95697c7d746cb
+  updated_at: 2010-06-25 14:05:16
+  username: herman
+  id: "12"
+  password_salt: aJ-qj6LzmHD2N3CzgnS3
+  persistence_token: b5150c42c0f016987df80a7aafbcc10764f401a61c293cf8e7840c25790bca79adc2282283ca829295503c1134e594e3ff005428adf5f72f84ab4d335524b837
+  email: herman@gmail.com

@@ -1,0 +1,8 @@
+HW 4:
+# DELIVERABLE: Blog about 2 chapters that you found interesting or/and confusing 
+	http://jbs2010.wordpress.com/2010/06/13/eugene-wolfson-chapters-89/
+# DELIVERABLE: Hand in the controller/model and/or view from your reading of Chapters 1-8 
+	http://github.com/yegeniy/JBS/tree/master/HW/HW3/depot/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW3/depot/app/controllers/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW3/depot/app/models/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW3/depot/app/views/

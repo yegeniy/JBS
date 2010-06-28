@@ -17,29 +17,38 @@ class CouponTest < ActiveSupport::TestCase
     assert @coup.valid?
   end
 
-  test "creating a non-blank coupon" do
+  test "creating a coupon with all fields filled" do
+    @coup[:company] = "Bolt Bus"
+    @coup[:deal] = "Buy 8 get 1 Free"
+    @coup[:expiration] = Time.now
+    @coup.save!
+    assert @coup.valid?
 #    @coup[:com
   end
 
   test "creating a coupon without an expiration date" do
-    
+    @coup[:company] = "Bolt Bus"
+    @coup[:deal] = "Buy 8 get 1 Free"
+    @coup.save!
+    assert_nil @coup[:expiration] 
   end
 
-  test "creating a coupon with all fields filled" do
-
-  end
+#  test "" do
+#
+#  end
 
 
 
 end
-
+=begin
 class MockCouponTest < Test::Unit::TestCase
   #TODO: Shouldn't be valid. Let's use a mock object for now.
   # Should be invalidity
   def test_creating_expired_coupon
     yesterday = DateTime.new.yesterday
     coup = Coupon.new(:expiration => yesterday)
-    coup.expects(:valid?
+    coup.expects(:valid?)
     
   end
 end
+=end
