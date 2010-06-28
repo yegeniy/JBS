@@ -1,3 +1,6 @@
+Eugene Wolfson
+This is a list of things I've done, but not handed in yet, as well as a (not quite complete) list of things I have Not done.
+
 HW 4:
 # DELIVERABLE: Blog about 2 chapters that you found interesting or/and confusing 
 	http://jbs2010.wordpress.com/2010/06/13/eugene-wolfson-chapters-89/
@@ -6,3 +9,77 @@ HW 4:
 	http://github.com/yegeniy/JBS/tree/master/HW/HW3/depot/app/controllers/
 	http://github.com/yegeniy/JBS/tree/master/HW/HW3/depot/app/models/
 	http://github.com/yegeniy/JBS/tree/master/HW/HW3/depot/app/views/
+DELIVERABLE: Hand in the key files: model(s), view(s), controller(s), routes, and so on. Don't hand in any rails-generated standard code that you didn't modify. (of personal app)
+	http://github.com/yegeniy/JBS/tree/master/HW/HW4/couponcoup/app/controllers/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW4/couponcoup/app/models/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW4/couponcoup/app/views/
+	http://github.com/yegeniy/JBS/blob/master/HW/HW4/couponcoup/db/schema.rb
+
+HW 5:
+# DELIVERABLE: Blog about you idea for your personal project 
+	http://jbs2010.wordpress.com/2010/06/13/couponcoup-personal-app/
+# DELIVERABLE: check in your personal project into your git hub. Print the key files. Screencast a demo. 
+	http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/app/controllers/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/app/models/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/app/views/
+	http://github.com/yegeniy/JBS/blob/master/HW/HW5/couponcoup/db/schema.rb
+
+HW6:
+# DELIVERABLE: Source code for key files printed and checked into git. (Personal App)
+	http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/app/controllers/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/app/models/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/app/views/
+	http://github.com/yegeniy/JBS/blob/master/HW/HW5/couponcoup/db/schema.rb
+# DELIVERABLE: Screencast demo that the relationships work (amazon db design)
+	http://github.com/theopon/jbs/tree/master/amazonstuff/amazon/
+	http://www.screencast-o-matic.com/watch/c612hXixl 
+DELIVERABLE: Hand in the ruby code on paper, check into git and screencast a demo of it. (LCD)
+	http://github.com/yegeniy/JBS/tree/master/HW/HW6/lcd/
+	SCREENCAST NOT DONE
+* DELIVERABLE: Share another cool method or class you discovered in Ruby or Rails that none of us may have known about and say why you think it's cool! 
+	http://jbs2010.wordpress.com/2010/06/14/ruby-methods-include-vs-extend/
+
+HW8:
+DELIVERABLE: Hand in and post the files you needed to create/modify to add authentication and carefully comment the changes and additions you make 
+	http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/app/controllers/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/app/models/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/app/views/
+	http://github.com/yegeniy/JBS/blob/master/HW/HW5/couponcoup/db/schema.rb
+# DELIVERABLE: Blog with your impressions of how well it is working for you on your product team 
+	NOT DONE.
+# DELIVERABLE: Screencast showing it working (personal app)
+	NOT DONE since HW 5
+# DELIVERABLE: Blog about a cool Ruby or Rails class, method, or gem. Something that will surprise and delight and WOW! us 
+	http://jbs2010.wordpress.com/2010/06/16/rails-method-collection_select/
+HW9:
+Personal Project
+# DELIVERABLE: Source code on paper, well commented (testing)
+	http://github.com/yegeniy/JBS/blob/master/HW/HW5/couponcoup/test/functional/users_controller_test.rb
+	http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/test/fixtures/
+	http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/test/unit/
+# DELIVERABLE: Screencast of you running the tests 
+	NOT DONE
+Performance
+# DELIVERABLE: Source code for your tests, plus test results, on paper
+	I think I did this, and it can be found at http://github.com/yegeniy/JBS/tree/master/HW/HW5/couponcoup/tmp/performance/
+	However, I didn't understand the implications of these tests so I don't think I can in good conscience turn them in.
+# DELIVERABLE: Screencast (narrated) of your running the performance tests 
+	NOT DONE
+Sharding: Thought experiment
+DELIVERABLE: Write a blog post explaining (to a geek audience) how you would implement sharding in your personal application. You should be detailed enough that an experienced rails programmer could use your post to actually implement sharding. 
+	NOT DONE
+
+HW10:
+# Design a full REST API for your personal application OR personal application
+# Write it up as documentation for another developer who wanted to access it
+# DELIVERABLE: Hand in and post to git your write up of your approach, including each method, get vs. put vs post, and the url structure 
+	http://github.com/yegeniy/JBS/blob/master/HW/HW10/REST%20API.txt
+
+HW11:
+DELIVERABLE - write a blog entry on what you learned from your usability test 
+	Usability Blog - http://jbs2010.wordpress.com/2010/06/28/usability-blog/
+	
+
+HW13:
+# DELIVERABLE: Post a blog of the pictures plus your observation about them and what you might do to improve the bad one. 
+	Affordance Blog - http://jbs2010.wordpress.com/2010/06/28/affordance-blog/
