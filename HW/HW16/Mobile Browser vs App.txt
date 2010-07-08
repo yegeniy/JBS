@@ -1,0 +1,16 @@
+This is an interesting topic. Do you make a mobile application which is browser based or standalone? 
+
+I guess the answer is a bit gray
+
+Let's assume that an app developed for a specific system is supposed to be more powerful and able to take full advantage of that device.
+On the other hand, developing for a browser will allow you to reach a larger audience, independent of their device.
+
+What it really comes down to is, where will the revenue come from? It obviously takes more money to develop for more than one platform. From that p.o.v, the browser's a better option. If you don't need to take advantage of the phone's hardware,
+
+... then it's probably not worth the saved money and time. to develop for one system. Ho
+
+Need to look at the numbers...
+
+
+I think the best approach is to always have a mobile browser site. If you project is better suited as an app, have a site with limited features. The site could be as simple as an advertisement for the app, but completely isolating yourself from customers whose mobiles can't run your app is not a good approach. 
+On the other hand, there are cases when your program can execute all its functionality on a browser. Then, creating an app is probably not worth your time.

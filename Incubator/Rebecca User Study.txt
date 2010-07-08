@@ -1,0 +1,76 @@
+Let's create a tour! Of Universities in the boston area! The most efficient way in one day to see four of them.
+
+Want to end in cambridge so we can have dinner there.
+
+We're starting at the hiatt.
+
+When we get to each campus we want to park our car and walk. We don't want to go on tours. We want to get to the campus centers. (but what if the tours were offered when you're near each university?)
+
+-----
+Now create this tour using my site!
+
+Would like to be able to tell them things
+
+If their 2nd stop is brandeis. I can include a hint!
+
+Have a starting point. Driving portions, walking portions. Want to integrate all three! See the mileage and approx time.
+Depending on weather make it different.
+
+
+Give them the criteria and they give me a skeleton. 
+
+So if I say, Brandeis, Tufts, B.C., Harvard - a suggested route would be good, and then I can go in and edit it.
+
+--
+Let's design the editor!
+
+Automatically suggest parking spots and bathrooms.
+
+So click each spot on the map to set up the walking directions. To add content to a spot, click on that spot and an infowindow appears.
+
+
+================
+
+
+"Click each spot on the map to set up the walking directions. To add content to a spot, click on that spot and an info window appears." 
+So, in terms of our database: 
+# The first click on the map creates a starting point. (Which we Require be described)
+# Subsequent clicks on the map create markers connected by polylines. 
+# Clicking on a marker reveals an infowindow to which content can be added through a form. The form should have a save button.
+	Clicking the save button will create a Point in our database through the form AND add that latLng to an array 
+
+# Putting the same marker on one spot.
+
+
+Initially, a path on the map will be one huge polyline
+Then we split the polyline into smaller polylines. Each of the smaller polylines is an edge (as represented on the map). The split is based on where the places with content (Points) are.
+Edges = Polyline.split(Points)
+
+
+
+
+On the question of How do we store a path, from a map interface?
+Polyline
+Points
+Points correspond to places along the polyline. We use the location of the points to split the 
+
+Edges = Polyline.split(Points)
+Keep the whole path as one long polyline (which if you remember correctly is an MVCArray).
+
+
+Point of Interest (POI): A marker which was saved in the database as a Point and selected to be on our path.
+	YAGNI: During path creation, if a marker becomes a POI, then the icon associated with the marker should change!
+"polyline_array" is an array of polylines. The union of all the polylines is all the markers on the path.
+"edge_boundaries" is an ordered list of Points of Interest that are included in our path. edge_boundaries must begin with the first POI of the path and end with the last. (NOTE that the first and last POI are also the first and last marker on the path). 
+
+Everytime that a POI is created, it should be added to 
+
+In order to create the 
+
+	TODO: Be able to create more than one POI on the same latLng. Need to have a visual difference between the two points. (probably a menu in an infowindow.)
+
+Iteration:
+	During path creation maintain edge_boundaries, and an overall polyline for the whole path.  
+	When saving the path, split the overall polyline using edge_boundaries.
+
+Should markers which are POIs have an id associated with them?

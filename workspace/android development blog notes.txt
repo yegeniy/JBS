@@ -1,0 +1,11 @@
+Activity is in a task. Task is what the user sees as the application. it is a stack of related activities. Activities don't necessarily come from the same app. 
+
+The coolest is activities being called from other apps and how apps can stay in place.
+
+
+
+A design decision:
+"Clearing the stack
+If the user leaves a task for a long time, the system clears the task of all activities except the root activity. When the user returns to the task again, it's as the user left it, except that only the initial activity is present. The idea is that, after a time, users will likely have abandoned what they were doing before and are returning to the task to begin something new." This is something new.
+
+Album design. Album Page{ [Album Thumbnails]} <<--> Album { [Picture Thumbnail] } <<-->  Picture

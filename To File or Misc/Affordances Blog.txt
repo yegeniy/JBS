@@ -1,0 +1,7 @@
+I didn't find a decent camera, but a quick google search found a picture of my bathroom faucet: 
+	http://image.made-in-china.com/2f0j00bejQizCnlWqZ/Two-Handle-Bathroom-Sink-Faucet-WE2002-.jpg
+
+	I like the design of this faucet for its handles. The left handle controls the amount of hot water and the right one the amount of cold water. The sum comes out in the center. I like this mode of interaction for two reasons. The first reason is that since they are long handles, it is easy to turn them with either my hand or my elbow in case my hands are soiled or soapy. The second reason is that since there are two of them, and each handle controls the volume, not the temperature of the water it contributes to the faucet in the middle, the user can quickly, easily, and accurately adjust the temperature and volume of the water. 
+	In general, it is important to hide complexity behind abstractions. In the case of the bathroom sink, there is no benefit in hiding the fact that two pipes holding water of opposing temperatures mix their contents near the central faucet
+	The only complaint about a doubled-handles faucet is that one needs to adjust two handles to shut on and off the water, but if you have two hands, you might as well use them.
+

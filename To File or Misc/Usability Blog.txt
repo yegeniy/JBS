@@ -1,0 +1,5 @@
+I did a usability test with my mother. She is not very computer-savvy and has only recently started using the internet. On the other hand she knows good design and gave lots of tips and had some great points of intuition.
+
+  In my usability test, a large map dominated the site. When presented with a map, the user got lost in browsing the map aimlessly. When I pointed out a search bar above the map, the user typed in her destination and quickly navigated the rest of the page. It seems that as long as the user isn't left to browse aimlessly(a map, or a long list of options), then he/she concentrates on their goal at hand.
+
+	The most important lesson is that Cakewalk's homepage did not portray a clearly-enough defined purpose. We will solve this problem by applying a less-is-more policy to the landing page. Presenting the user with a From/To input box and little else. Most links can still be accessed from a menu at the top of the page.

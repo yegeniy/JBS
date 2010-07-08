@@ -1,0 +1,21 @@
+Eugene Wolfson
+HW18 Reading/Blogging
+
+Reorder Activities is useful, 
+as is redirection.
+Forwarding
+
+
+Translucent and Translucent blur are useful for notifications!
+That whole family
+
+Persistent state
+
+
+The whole notification family and the dialogs family is really powerful and simplifies a lot of work
+
+There are a lot of nice solutions for presenting information to the user (all sorts of lists, dialogs, menus, image views, etc..) in app and views
+
+The only other thing that stands out is the Sensors & Compass app. It definitely shows off that the phone has an accelorometer and compass, but doesn't show us as many examples of using the sensors. The sensors, in my opinion are some of the coolest and most unexploited features of the phone.
+
+The graphics overview is nice, but I don't think that a full featured graphics suite is really useful in most applications written for a mobile phone, except to provide eyecandy.

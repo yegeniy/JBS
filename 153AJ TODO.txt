@@ -1,0 +1,6 @@
+	HW16a - blog on native vs web-based mobile apps
+	HW16b - do prework assignment in Java with Eclipse
+	hw 17a - first simple android app
+	hw17b - blogging on android architecture
+	hw18b - Deliverable - printout the code you wrote and create a screencast of the application running on an emulator ... or a movie of it running on a device (this might be harder to do!). The screen cast should explore most if not all of the possible navigation paths. 
+	hw18c - blog about activites in the API demo.
