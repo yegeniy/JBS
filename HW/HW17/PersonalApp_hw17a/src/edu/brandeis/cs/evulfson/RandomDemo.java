@@ -14,7 +14,7 @@ import android.widget.TextView;
  * @author Eugene Wolfson
  * HW 17a, RandomDemo
  * Displays a random decimal number from 0 to 1,
- * 	shift by a user-provided amount.
+ * 	shifted by a user-provided amount.
  *
  */
 public class RandomDemo extends Activity implements OnClickListener{
