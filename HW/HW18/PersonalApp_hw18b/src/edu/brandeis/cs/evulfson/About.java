@@ -1,11 +1,11 @@
 package edu.brandeis.cs.evulfson;
 
-//import edu.brandeis.cs.evulfson.R;
 import android.app.Activity;
 import android.os.Bundle;
-//import android.view.View;
-//import android.view.View.OnClickListener;
 
+/**
+ * Shows the about screen. Sets the content view to the about layout.
+ */
 public class About extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

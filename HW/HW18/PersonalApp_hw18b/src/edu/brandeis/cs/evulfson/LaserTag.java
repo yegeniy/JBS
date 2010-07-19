@@ -11,8 +11,10 @@ import android.view.MenuItem;
 
 /**
  * 
- * @author Eugene Wolfson HW 18b, Laser Tag For now, just a start screen with a
- *         menu
+ * @author Eugene Wolfson
+ * HW 18b, Laser Tag 
+ * A start screen with a menu which opens to non-functional settings.
+ * The play button opens to a screen with a reticle over a background.
  * 
  */
 public class LaserTag extends Activity implements OnClickListener {
@@ -62,8 +64,7 @@ public class LaserTag extends Activity implements OnClickListener {
 	 * Resolves the click on a view v: about_button -> shows an about screen
 	 * play_button -> shows the game screen
 	 * 
-	 * @param v
-	 *            the view that was clicked on.
+	 * @param v the view that was clicked on.
 	 */
 	public void onClick(View v) {
 		// TODO Auto-generated method stub

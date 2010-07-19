@@ -15,7 +15,7 @@ public class GameView extends View{
 
 	private final Game game;
 	
-//	private float width;	//diameter of 
+
 	
 	public GameView(Context context){
 		super(context);
@@ -23,12 +23,6 @@ public class GameView extends View{
 		setFocusable(true);
 		setFocusableInTouchMode(true);
 	}
-	
-//	
-//	@Override
-//	protected void onSizeChanged(int w, int h, int oldw, int oldh) {
-//		
-//	}
 	
 	/**
 	 * Set a background color.
@@ -41,11 +35,11 @@ public class GameView extends View{
 		
 	}
 	
-//	
+
 	/**
 	 * Draw a crosshair on canvas by drawing
 	 * 	one outer circle and then an inner one of background color to create a ring
-	 * N.B.: We can just as easily use the Path() class here, but it's much easier to draw 
+	 * N.B.: We can just as easily use the Path() class with the addCircle method here, but it's easier to draw directly on the canvas
 	 * @param canvas
 	 */
 	private void drawCrosshair(Canvas canvas) {
