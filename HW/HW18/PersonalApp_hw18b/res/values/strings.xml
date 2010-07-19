@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Laser Tag</string>
+    <string name="play_label">Play</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Quit</string>
+    
+    <string name="settings_label">Settings</string>
+    <string name="settings_title">Laser Tag Settings</string>
+    <string name="settings_shortcut">s</string>
+    
+    <string name="about_title">About Laser Tag</string>
+    <string name="about_text">\
+    Laser Tag is a game where you and your friends 
+    log on and shoot each other using your android
+    device. At the end of a round, you can see how
+    well you did. Requires camera, position and 
+    orientation sensor to check where the phone 
+    is pointed.
+    </string>
+    
+    <string name="crosshair_title">Crosshair</string>
+    <string name="crosshair_summary">Toggle the visibility of the Crosshair</string>
+    
+    <string name="game_title">LaserTag Game</string>
+    
+</resources>

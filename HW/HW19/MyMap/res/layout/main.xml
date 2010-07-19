@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ! Excerpted from "Hello, Android! 2e", ! published by The Pragmatic 
+	Bookshelf. ! Copyrights apply to this code. It may not be used to create 
+	training material, ! courses, books, articles, and the like. Contact us if 
+	you are in doubt. ! We make no guarantees that this code is fit for any purpose. 
+	! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/frame" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<Button android:text="go" android:id="@+id/go" android:textSize="20sp"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+	<TextView android:text="......." android:id="@+id/position"
+		android:textSize="20sp" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+		
+	<com.google.android.maps.MapView
+		android:id="@+id/map" android:apiKey="09ZaeoDRkfR6WBlaqVNzVYNcS-yjA7yeiMeFw1Q"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:clickable="true" />
+</LinearLayout>

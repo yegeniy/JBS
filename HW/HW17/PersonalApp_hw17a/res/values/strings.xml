@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instructions">This program adds a random number between 0 and 1 to a user-specified base</string>
+    <string name="app_name">Eugene Wolfson, Personal Application</string>
+    <string name="baseInstructions">Put base here:</string>
+</resources>
