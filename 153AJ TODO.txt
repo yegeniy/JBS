@@ -4,7 +4,7 @@
 	hw17b - blogging on android architecture
 	hw18b - printout the code you wrote and create a screencast of the application running on an emulator ... or a movie of it running on a device (this might be harder to do!). The screen cast should explore most if not all of the possible navigation paths. 
 	hw18c - blog about activites in the API demo.
-	hw19a - modified BrowserView  and MyMap  apps and check them into github 
+	hw19a - modified BrowserView and MyMap apps and check them into github
 	hw19b - Print out a copy of your blog entry.
 	hw20a - hand in a webcast showing the WebView  and MapView
 	hw20b - Write a blog post detailing your experiences, what the tool does well and badly, what advantages and disadvantages you see with using such a tool. There are definitely real advantages and real problems. 
